@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(0, 0, 0, 0.461);
+    font-family: 'poppins' sans-serif;
+}
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 10vw;
+    color: aliceblue;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.auto-play-videoss{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    z-index: -1;
+}
